@@ -3,7 +3,7 @@
 int main()
 {
 	int arr[3] = { 10, 20, 30 };
-	int* ap = NULL;
+	int (*ap) = NULL;							//int* ap로 해도 상관없다.
 	
 	ap = arr;
 
